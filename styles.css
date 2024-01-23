@@ -61,6 +61,10 @@ nav ul li a:hover{
     border-bottom: 2px solid wheat;
 }
 
+section{
+    padding-top: 30px;
+}
+
 #header{
     width: 100%;
     height: 768px;
@@ -97,4 +101,68 @@ nav ul li a:hover{
 
 .github:hover{
     background-color: #28241ec2;
+}
+
+#technologies{
+    width: 100%;
+    height: 90vh;
+    background-color: #a68e62;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+}
+
+.technologies-text{
+    width: 55%;
+    color: rgb(244, 235, 223);
+}
+
+dd{
+    font-weight: 100;
+    font-size: small;
+    margin-left: 15px;
+}
+
+#projects{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-box{
+    background-color:#28241E;
+    color: azure;
+    height: 190px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 10px 12px rgb(45, 40, 27);
+    position: relative;
+    padding: 15px;
+}
+
+.project-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-text p{
+    color: rgb(232, 204, 209);
 }
