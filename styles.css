@@ -82,4 +82,19 @@ nav ul li a:hover{
     letter-spacing: 2px;
 }
 
-.header-heading h1
+.github{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28241e;
+    color: white;
+    border-radius: 4px;
+    transition: 0.6s ease-out;
+    margin-top: 30px;
+}
+
+.github:hover{
+    background-color: #28241ec2;
+}
